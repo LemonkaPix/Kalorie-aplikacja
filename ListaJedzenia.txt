@@ -1,0 +1,71 @@
+Big Mac z McDonald’s		100g	256 kcal
+Brazer kanapka z KFC		100g	190 kcal
+Burger wegetariański		100g	181 kcal
+Cheeseburger			100g	263 kcal
+Falafel				100g	335 kcal
+Frytki				100g	254 kcal
+Grander z KFC			100g	242 kcal
+Hamburger			100g	254 kcal
+Hot dog				100g	269 kcal
+Indyk				100g	104 kcal
+Kanapka z klopsikami		100g	161 kcal
+Kanapka z kurczakiem		100g	241 kcal
+Kanapka z rybą			100g	273 kcal
+Kanapka z szynką		100g	241 kcal
+Kebab				100g	225 kcal
+Kiełbasa			100g	333 kcal
+Kotlet wegetariański		100g	390 kcal
+Krokiet				100g	250 kcal
+Krążki cebulowe			100g	411 kcal
+Lazania				100g	132 kcal
+Nachos z serem			100g	306 kcal
+Nuggetsy z kurczaka		100g	296 kcal
+Piersi z kurczaka		100g	163 kcal
+Skrzydełka z kurczaka		100g	324 kcal
+Tortilla Wrap			100g	271 kcal
+Tuńczyk				100g	86 kcal
+Whopper z Burger King		100g	231 kcal
+Wieśmac z McDonald’s		100g	256 kcal
+Zapiekanka			100g	214 kcal
+Zinger z KFC			100g	270 kcal
+Żeberka grillowane		100g	212 kcal
+
+
+Pomidor		19
+Banan		89
+Cebula		40
+Jabłko		57
+Marchew 	41
+Ogórek		14
+Chleb żytni	227
+Sałata		13
+Papryka 	26
+Rzodkiewka	16
+Miód		319
+Ziemniaki	77
+Kurczak 	121
+Awokado		160
+Kiwi 		61
+Jajko 		143
+Pomarańcza	47
+Gruszka		58
+Brokuły		31
+Sałata lodowa	14
+Mandaynka	53
+Kukurydza	61
+Truskawki	32
+Kalafior 	27
+Masło 		753
+Por		29
+Chleb		247
+Musztarda	111
+Cytryna		29
+Mleko		61
+Ketchup		101
+Mango 		60
+Grejpfrut	32
+Arbuz 		30
+Ananas		50
+Burak 		43
+Nektarynka	50
+Jajecznica 	149

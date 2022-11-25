@@ -1,0 +1,71 @@
+Big Mac z McDonald’s
+Brazer kanapka z KFC
+Burger wegetariański
+Cheeseburger	
+Falafel		
+Frytki		
+Grander z KFC	
+Hamburger	
+Hot dog		
+Indyk		
+Kanapka z klopsikami
+Kanapka z kurczakiem
+Kanapka z rybą	
+Kanapka z szynką
+Kebab		
+Kiełbasa	
+Kotlet wegetariański
+Krokiet		
+Krążki cebulowe	
+Lazania		
+Nachos z serem	
+Nuggetsy z kurczaka
+Piersi z kurczaka
+Skrzydełka z kurczaka
+Tortilla Wrap	
+Tuńczyk	
+Whopper z Burger King
+Wieśmac z McDonald’s
+Zapiekanka	
+Zinger z KFC	
+Żeberka grillowane
+
+
+Pomidor	
+Banan	
+Cebula	
+Jabłko	
+Marchew 
+Ogórek	
+Chleb żytni
+Sałata	
+Papryka 
+Rzodkiewka
+Miód	
+Ziemniaki
+Kurczak 
+Awokado	
+Kiwi 	
+Jajko 	
+Pomarańcza
+Gruszka	
+Brokuły	
+Sałata lodowa
+Mandaynka
+Kukurydza
+Truskawki
+Kalafior 
+Masło 	
+Por	
+Chleb	
+Musztarda
+Cytryna	
+Mleko	
+Ketchup	
+Mango 	
+Grejpfrut
+Arbuz 	
+Ananas	
+Burak 	
+Nektarynka
+Jajecznica 
