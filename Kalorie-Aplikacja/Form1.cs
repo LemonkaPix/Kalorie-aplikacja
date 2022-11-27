@@ -46,7 +46,7 @@ namespace Kalorie_Aplikacja
                         if (zdroweLista.SelectedIndex != -1)
                         {
                             Food healthyFood = foodData.healthyFoodFoodData.Find(x => x.name.Trim().Equals(zdroweLista.Text.Trim()));
-                            string differenceText = $"W 100g kalorii {unHealthyFood.name} zmieści się {100 * countDifference(unHealthyFood, healthyFood)}g kalorii {healthyFood.name}";
+                            string differenceText = $"100g  {unHealthyFood.name} ma tyle samo kalorii co {100 * countDifference(unHealthyFood, healthyFood)}g {healthyFood.name}";
 
                             RoznicaLabel.Text = differenceText;
                         }
@@ -61,7 +61,7 @@ namespace Kalorie_Aplikacja
                         if(niezdroweLista.SelectedIndex != -1)
                         {
                             Food unHealthyFood = foodData.fastFoodFoodData.Find(x => x.name.Trim().Equals(niezdroweLista.Text.Trim()));
-                            string differenceText = $"W 100g kalorii {unHealthyFood.name} zmieści się {100 * countDifference(unHealthyFood, healthyFood)}g kalorii {healthyFood.name}";
+                            string differenceText = $"100g {unHealthyFood.name} ma tyle samo kalorii co {100 * countDifference(unHealthyFood, healthyFood)}g {healthyFood.name}";
 
                             RoznicaLabel.Text = differenceText;
                         }
