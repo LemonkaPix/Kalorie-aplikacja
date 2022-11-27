@@ -17,9 +17,21 @@ namespace Kalorie_Aplikacja
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void changeSelection(object sender, EventArgs e)
         {
+            ComboBox comboBox = sender as ComboBox;
+            int index = comboBox.TabIndex;
+
+            Food part = (foodData.fastFoodFoodData.Find(x => x.name.Equals("Indyk")));
+
+            MessageBox.Show(part.name);
+
+            if(index == 0 && zdroweLista.SelectedIndex != -1)
+            {
+                //MessageBox.Show(foodData.fastFoodFoodData.Find(x => x.name.Contains(comboBox.Text)).ToString());
+            }
 
         }
+
     }
 }

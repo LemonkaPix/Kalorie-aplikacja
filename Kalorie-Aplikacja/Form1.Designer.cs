@@ -7,6 +7,8 @@
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
+        FoodData foodData = new FoodData();
+
         /// <summary>
         /// Wyczyść wszystkie używane zasoby.
         /// </summary>
@@ -74,10 +76,12 @@
             "Zapiekanka\t",
             "Zinger z KFC\t",
             "Żeberka grillowane"});
-            this.niezdroweLista.Location = new System.Drawing.Point(12, 71);
+            this.niezdroweLista.Location = new System.Drawing.Point(16, 87);
+            this.niezdroweLista.Margin = new System.Windows.Forms.Padding(4);
             this.niezdroweLista.Name = "niezdroweLista";
-            this.niezdroweLista.Size = new System.Drawing.Size(250, 32);
+            this.niezdroweLista.Size = new System.Drawing.Size(332, 37);
             this.niezdroweLista.TabIndex = 0;
+            this.niezdroweLista.SelectedIndexChanged += new System.EventHandler(this.changeSelection);
             // 
             // zdroweLista
             // 
@@ -123,18 +127,21 @@
             "Burak \t",
             "Nektarynka",
             "Jajecznica "});
-            this.zdroweLista.Location = new System.Drawing.Point(530, 72);
+            this.zdroweLista.Location = new System.Drawing.Point(707, 89);
+            this.zdroweLista.Margin = new System.Windows.Forms.Padding(4);
             this.zdroweLista.Name = "zdroweLista";
-            this.zdroweLista.Size = new System.Drawing.Size(250, 32);
+            this.zdroweLista.Size = new System.Drawing.Size(332, 37);
             this.zdroweLista.TabIndex = 1;
+            this.zdroweLista.SelectedIndexChanged += new System.EventHandler(this.changeSelection);
             // 
             // FastFoods
             // 
             this.FastFoods.AutoSize = true;
             this.FastFoods.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.FastFoods.Location = new System.Drawing.Point(78, 44);
+            this.FastFoods.Location = new System.Drawing.Point(104, 54);
+            this.FastFoods.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FastFoods.Name = "FastFoods";
-            this.FastFoods.Size = new System.Drawing.Size(104, 24);
+            this.FastFoods.Size = new System.Drawing.Size(133, 29);
             this.FastFoods.TabIndex = 2;
             this.FastFoods.Text = "Fast Foody";
             // 
@@ -142,9 +149,10 @@
             // 
             this.healthy.AutoSize = true;
             this.healthy.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.healthy.Location = new System.Drawing.Point(574, 44);
+            this.healthy.Location = new System.Drawing.Point(765, 54);
+            this.healthy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.healthy.Name = "healthy";
-            this.healthy.Size = new System.Drawing.Size(152, 24);
+            this.healthy.Size = new System.Drawing.Size(191, 29);
             this.healthy.TabIndex = 3;
             this.healthy.Text = "Zdrowa żywność";
             // 
@@ -152,9 +160,10 @@
             // 
             this.kalorie.AutoSize = true;
             this.kalorie.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.kalorie.Location = new System.Drawing.Point(338, 116);
+            this.kalorie.Location = new System.Drawing.Point(451, 143);
+            this.kalorie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.kalorie.Name = "kalorie";
-            this.kalorie.Size = new System.Drawing.Size(108, 29);
+            this.kalorie.Size = new System.Drawing.Size(136, 36);
             this.kalorie.TabIndex = 4;
             this.kalorie.Text = "2137kcal";
             // 
@@ -162,9 +171,10 @@
             // 
             this.iloscFastFoodow.AutoSize = true;
             this.iloscFastFoodow.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.iloscFastFoodow.Location = new System.Drawing.Point(89, 149);
+            this.iloscFastFoodow.Location = new System.Drawing.Point(119, 183);
+            this.iloscFastFoodow.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.iloscFastFoodow.Name = "iloscFastFoodow";
-            this.iloscFastFoodow.Size = new System.Drawing.Size(66, 29);
+            this.iloscFastFoodow.Size = new System.Drawing.Size(83, 36);
             this.iloscFastFoodow.TabIndex = 5;
             this.iloscFastFoodow.Text = "100g";
             // 
@@ -172,18 +182,19 @@
             // 
             this.iloscZdrowego.AutoSize = true;
             this.iloscZdrowego.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.iloscZdrowego.Location = new System.Drawing.Point(611, 149);
+            this.iloscZdrowego.Location = new System.Drawing.Point(815, 183);
+            this.iloscZdrowego.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.iloscZdrowego.Name = "iloscZdrowego";
-            this.iloscZdrowego.Size = new System.Drawing.Size(66, 29);
+            this.iloscZdrowego.Size = new System.Drawing.Size(83, 36);
             this.iloscZdrowego.TabIndex = 6;
             this.iloscZdrowego.Text = "100g";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.iloscZdrowego);
             this.Controls.Add(this.iloscFastFoodow);
             this.Controls.Add(this.kalorie);
@@ -191,9 +202,9 @@
             this.Controls.Add(this.FastFoods);
             this.Controls.Add(this.zdroweLista);
             this.Controls.Add(this.niezdroweLista);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Kalkulator kalorii";
             this.ResumeLayout(false);
             this.PerformLayout();
 
