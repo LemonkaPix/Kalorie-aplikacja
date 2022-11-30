@@ -93,9 +93,10 @@
             "Zapiekanka\t",
             "Zinger z KFC\t",
             "Żeberka grillowane"});
-            this.niezdroweLista.Location = new System.Drawing.Point(10, 47);
+            this.niezdroweLista.Location = new System.Drawing.Point(13, 58);
+            this.niezdroweLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.niezdroweLista.Name = "niezdroweLista";
-            this.niezdroweLista.Size = new System.Drawing.Size(238, 32);
+            this.niezdroweLista.Size = new System.Drawing.Size(316, 37);
             this.niezdroweLista.TabIndex = 0;
             this.niezdroweLista.SelectedIndexChanged += new System.EventHandler(this.changeSelection);
             // 
@@ -144,9 +145,10 @@
             "Burak \t",
             "Nektarynka",
             "Jajecznica "});
-            this.zdroweLista.Location = new System.Drawing.Point(13, 47);
+            this.zdroweLista.Location = new System.Drawing.Point(17, 58);
+            this.zdroweLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.zdroweLista.Name = "zdroweLista";
-            this.zdroweLista.Size = new System.Drawing.Size(235, 32);
+            this.zdroweLista.Size = new System.Drawing.Size(312, 37);
             this.zdroweLista.TabIndex = 1;
             this.zdroweLista.SelectedIndexChanged += new System.EventHandler(this.changeSelection);
             // 
@@ -154,9 +156,10 @@
             // 
             this.FastFoods.AutoSize = true;
             this.FastFoods.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.FastFoods.Location = new System.Drawing.Point(77, 11);
+            this.FastFoods.Location = new System.Drawing.Point(103, 14);
+            this.FastFoods.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FastFoods.Name = "FastFoods";
-            this.FastFoods.Size = new System.Drawing.Size(104, 24);
+            this.FastFoods.Size = new System.Drawing.Size(133, 29);
             this.FastFoods.TabIndex = 2;
             this.FastFoods.Text = "Fast Foody";
             // 
@@ -164,9 +167,10 @@
             // 
             this.healthy.AutoSize = true;
             this.healthy.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.healthy.Location = new System.Drawing.Point(61, 11);
+            this.healthy.Location = new System.Drawing.Point(81, 14);
+            this.healthy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.healthy.Name = "healthy";
-            this.healthy.Size = new System.Drawing.Size(152, 24);
+            this.healthy.Size = new System.Drawing.Size(191, 29);
             this.healthy.TabIndex = 3;
             this.healthy.Text = "Zdrowa żywność";
             // 
@@ -174,18 +178,20 @@
             // 
             this.FastFoodKalorie.AutoSize = true;
             this.FastFoodKalorie.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.FastFoodKalorie.Location = new System.Drawing.Point(76, 132);
+            this.FastFoodKalorie.Location = new System.Drawing.Point(101, 162);
+            this.FastFoodKalorie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FastFoodKalorie.Name = "FastFoodKalorie";
-            this.FastFoodKalorie.Size = new System.Drawing.Size(0, 29);
+            this.FastFoodKalorie.Size = new System.Drawing.Size(0, 36);
             this.FastFoodKalorie.TabIndex = 4;
             // 
             // iloscFastFoodow
             // 
             this.iloscFastFoodow.AutoSize = true;
             this.iloscFastFoodow.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.iloscFastFoodow.Location = new System.Drawing.Point(105, 93);
+            this.iloscFastFoodow.Location = new System.Drawing.Point(140, 114);
+            this.iloscFastFoodow.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.iloscFastFoodow.Name = "iloscFastFoodow";
-            this.iloscFastFoodow.Size = new System.Drawing.Size(66, 29);
+            this.iloscFastFoodow.Size = new System.Drawing.Size(83, 36);
             this.iloscFastFoodow.TabIndex = 5;
             this.iloscFastFoodow.Text = "100g";
             // 
@@ -193,15 +199,16 @@
             // 
             this.iloscZdrowego.AutoSize = true;
             this.iloscZdrowego.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.iloscZdrowego.Location = new System.Drawing.Point(94, 93);
+            this.iloscZdrowego.Location = new System.Drawing.Point(125, 114);
+            this.iloscZdrowego.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.iloscZdrowego.Name = "iloscZdrowego";
-            this.iloscZdrowego.Size = new System.Drawing.Size(66, 29);
+            this.iloscZdrowego.Size = new System.Drawing.Size(83, 36);
             this.iloscZdrowego.TabIndex = 6;
             this.iloscZdrowego.Text = "100g";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DarkOrange;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(97)))), ((int)(((byte)(7)))));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.FastFoodPizzaIcon2);
@@ -210,37 +217,35 @@
             this.panel1.Controls.Add(this.niezdroweLista);
             this.panel1.Controls.Add(this.iloscZdrowego);
             this.panel1.Controls.Add(this.FastFoods);
-            this.panel1.Location = new System.Drawing.Point(62, 52);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(83, 64);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(259, 175);
+            this.panel1.Size = new System.Drawing.Size(344, 214);
             this.panel1.TabIndex = 7;
             // 
             // FastFoodPizzaIcon2
             // 
             this.FastFoodPizzaIcon2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.FastFoodPizzaIcon2.ForeColor = System.Drawing.Color.Yellow;
-            this.FastFoodPizzaIcon2.Location = new System.Drawing.Point(214, 0);
-            this.FastFoodPizzaIcon2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.FastFoodPizzaIcon2.ForeColor = System.Drawing.Color.Orange;
+            this.FastFoodPizzaIcon2.Location = new System.Drawing.Point(285, 0);
             this.FastFoodPizzaIcon2.Name = "FastFoodPizzaIcon2";
-            this.FastFoodPizzaIcon2.Size = new System.Drawing.Size(34, 44);
+            this.FastFoodPizzaIcon2.Size = new System.Drawing.Size(45, 54);
             this.FastFoodPizzaIcon2.TabIndex = 15;
             this.FastFoodPizzaIcon2.Text = "🍕";
             // 
             // FastFoodPizzaIcon1
             // 
             this.FastFoodPizzaIcon1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.FastFoodPizzaIcon1.ForeColor = System.Drawing.Color.Yellow;
-            this.FastFoodPizzaIcon1.Location = new System.Drawing.Point(3, 0);
-            this.FastFoodPizzaIcon1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.FastFoodPizzaIcon1.ForeColor = System.Drawing.Color.Orange;
+            this.FastFoodPizzaIcon1.Location = new System.Drawing.Point(4, 0);
             this.FastFoodPizzaIcon1.Name = "FastFoodPizzaIcon1";
-            this.FastFoodPizzaIcon1.Size = new System.Drawing.Size(34, 44);
+            this.FastFoodPizzaIcon1.Size = new System.Drawing.Size(45, 54);
             this.FastFoodPizzaIcon1.TabIndex = 14;
             this.FastFoodPizzaIcon1.Text = "🍕";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Chartreuse;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(181)))), ((int)(((byte)(24)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.ZdroweKalorie);
             this.panel2.Controls.Add(this.HealthyIcon2);
@@ -248,29 +253,29 @@
             this.panel2.Controls.Add(this.zdroweLista);
             this.panel2.Controls.Add(this.healthy);
             this.panel2.Controls.Add(this.iloscFastFoodow);
-            this.panel2.Location = new System.Drawing.Point(513, 52);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(684, 64);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(259, 175);
+            this.panel2.Size = new System.Drawing.Size(344, 214);
             this.panel2.TabIndex = 8;
             // 
             // ZdroweKalorie
             // 
             this.ZdroweKalorie.AutoSize = true;
             this.ZdroweKalorie.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ZdroweKalorie.Location = new System.Drawing.Point(88, 132);
+            this.ZdroweKalorie.Location = new System.Drawing.Point(117, 162);
+            this.ZdroweKalorie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ZdroweKalorie.Name = "ZdroweKalorie";
-            this.ZdroweKalorie.Size = new System.Drawing.Size(0, 29);
+            this.ZdroweKalorie.Size = new System.Drawing.Size(0, 36);
             this.ZdroweKalorie.TabIndex = 16;
             // 
             // HealthyIcon2
             // 
             this.HealthyIcon2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.HealthyIcon2.ForeColor = System.Drawing.Color.Red;
-            this.HealthyIcon2.Location = new System.Drawing.Point(212, 0);
-            this.HealthyIcon2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.HealthyIcon2.Location = new System.Drawing.Point(283, 0);
             this.HealthyIcon2.Name = "HealthyIcon2";
-            this.HealthyIcon2.Size = new System.Drawing.Size(44, 44);
+            this.HealthyIcon2.Size = new System.Drawing.Size(59, 54);
             this.HealthyIcon2.TabIndex = 13;
             this.HealthyIcon2.Text = "🍎";
             // 
@@ -278,10 +283,9 @@
             // 
             this.HealthyIcon1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.HealthyIcon1.ForeColor = System.Drawing.Color.Red;
-            this.HealthyIcon1.Location = new System.Drawing.Point(2, 0);
-            this.HealthyIcon1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.HealthyIcon1.Location = new System.Drawing.Point(3, 0);
             this.HealthyIcon1.Name = "HealthyIcon1";
-            this.HealthyIcon1.Size = new System.Drawing.Size(44, 44);
+            this.HealthyIcon1.Size = new System.Drawing.Size(59, 54);
             this.HealthyIcon1.TabIndex = 12;
             this.HealthyIcon1.Text = "🍎";
             // 
@@ -290,9 +294,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(254, 0);
+            this.label1.Location = new System.Drawing.Point(339, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(353, 24);
+            this.label1.Size = new System.Drawing.Size(442, 29);
             this.label1.TabIndex = 9;
             this.label1.Text = "Wybierz pożywienie z listy rozwijanej";
             // 
@@ -304,42 +309,44 @@
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.panel2);
             this.panel3.Controls.Add(this.panel1);
-            this.panel3.Location = new System.Drawing.Point(-22, 50);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Location = new System.Drawing.Point(-29, 62);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(794, 391);
+            this.panel3.Size = new System.Drawing.Size(1059, 481);
             this.panel3.TabIndex = 10;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.BlueViolet;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(109)))), ((int)(((byte)(141)))));
             this.panel4.Controls.Add(this.RoznicaLabel);
-            this.panel4.Location = new System.Drawing.Point(62, 251);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Location = new System.Drawing.Point(83, 309);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(709, 137);
+            this.panel4.Size = new System.Drawing.Size(945, 169);
             this.panel4.TabIndex = 10;
             // 
             // RoznicaLabel
             // 
-            this.RoznicaLabel.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.RoznicaLabel.BackColor = System.Drawing.Color.Transparent;
             this.RoznicaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.RoznicaLabel.Location = new System.Drawing.Point(3, 0);
+            this.RoznicaLabel.Location = new System.Drawing.Point(4, 0);
+            this.RoznicaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.RoznicaLabel.Name = "RoznicaLabel";
-            this.RoznicaLabel.Size = new System.Drawing.Size(703, 137);
+            this.RoznicaLabel.Size = new System.Drawing.Size(937, 169);
             this.RoznicaLabel.TabIndex = 17;
             this.RoznicaLabel.Text = "😀";
             this.RoznicaLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(63)))), ((int)(((byte)(98)))));
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panel3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kalkulator kalorii";
