@@ -49,6 +49,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.RoznicaLabel = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -94,7 +95,7 @@
             "Zinger z KFC\t",
             "Żeberka grillowane"});
             this.niezdroweLista.Location = new System.Drawing.Point(13, 58);
-            this.niezdroweLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.niezdroweLista.Margin = new System.Windows.Forms.Padding(4);
             this.niezdroweLista.Name = "niezdroweLista";
             this.niezdroweLista.Size = new System.Drawing.Size(316, 37);
             this.niezdroweLista.TabIndex = 0;
@@ -146,7 +147,7 @@
             "Nektarynka",
             "Jajecznica "});
             this.zdroweLista.Location = new System.Drawing.Point(17, 58);
-            this.zdroweLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.zdroweLista.Margin = new System.Windows.Forms.Padding(4);
             this.zdroweLista.Name = "zdroweLista";
             this.zdroweLista.Size = new System.Drawing.Size(312, 37);
             this.zdroweLista.TabIndex = 1;
@@ -208,7 +209,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(97)))), ((int)(((byte)(7)))));
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.FastFoodPizzaIcon2);
@@ -245,7 +246,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(181)))), ((int)(((byte)(24)))));
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.ZdroweKalorie);
             this.panel2.Controls.Add(this.HealthyIcon2);
@@ -309,6 +310,7 @@
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.panel2);
             this.panel3.Controls.Add(this.panel1);
+            this.panel3.ForeColor = System.Drawing.SystemColors.Control;
             this.panel3.Location = new System.Drawing.Point(-29, 62);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
@@ -327,7 +329,7 @@
             // 
             // RoznicaLabel
             // 
-            this.RoznicaLabel.BackColor = System.Drawing.Color.Transparent;
+            this.RoznicaLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(96)))), ((int)(((byte)(161)))));
             this.RoznicaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.RoznicaLabel.Location = new System.Drawing.Point(4, 0);
             this.RoznicaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -337,19 +339,31 @@
             this.RoznicaLabel.Text = "😀";
             this.RoznicaLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label2.Location = new System.Drawing.Point(13, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(228, 16);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Autorzy: Maciej Wróbel, Radek Sowa";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(63)))), ((int)(((byte)(98)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(92)))));
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kalkulator kalorii";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -358,6 +372,7 @@
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -381,6 +396,7 @@
         private System.Windows.Forms.Label ZdroweKalorie;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label RoznicaLabel;
+        private System.Windows.Forms.Label label2;
     }
 }
 
